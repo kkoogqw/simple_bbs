@@ -1,0 +1,174 @@
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+
+}
+
+#top-bar {
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+}
+
+#search-box {
+    position: absolute;
+    right: 10px;
+    width: 15%;
+    min-width: 300px;
+    max-width: 400px;
+}
+.bbs-post-article {
+    margin-left: 30px;
+}
+
+#side-bar {
+    width: 15%;
+    max-width: 200px;
+    min-width: 100px;
+    position: fixed;
+    float: left;
+    top: 70px;
+    left: 10px;
+    z-index: 99;
+}
+
+#user-card {
+    
+}
+#user-menu {
+    padding-top: 10px; 
+}
+#main-block {
+    float: left;
+    position: relative;
+    left: 25%;
+    top: 70px;
+    width: 80%;
+}
+.bbs-block, .bbs-block-all, .bbs-search-list{
+    position: relative;
+    height: 370px;
+    width: 80%;
+    max-width: 800px;
+    background-color: white;
+    border-top: 5px solid orange;
+    margin-bottom: 20px;
+}
+.bbs-block-more, .bbs-block-title {
+    position: absolute;
+}
+.bbs-block-more {
+    right: 10px;
+    font-size: 0.8em;
+    top: 10px;
+}
+.bbs-block-title {
+    left: 10px;
+    top: 5px;
+}
+.bbs-block-introduce {
+    position: absolute;
+    top: 50px;
+}
+.bbs-block-list {
+    position: relative;
+    top: 100px;
+    height: 50px;
+}
+.bbs-block-all, .bbs-search-list {
+    height: 920px;
+}
+.bbs-page-choose {
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+}
+
+/* 用于用户界面信息的CSS */
+#bbs-user-info-table {
+    height: 150%;
+    width: 800px;
+    background-color: white;
+    
+}
+.bbs-user-img-card {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    width: 250px;
+    height: 400px;
+}
+#user-info-table {
+    position: relative;
+    top: 70px;
+    margin-bottom: 20px;
+    max-width: 1000px;
+    min-width: 500px;
+    width: 90%;
+    background-color: white;
+    border-left: 5px solid salmon; 
+    padding: 20px;
+}
+#user-info-list {
+    float: left;
+    min-width: 150px;
+    max-width: 500px;
+    width: 40%;
+}
+
+/* 管理员控制台 */
+#bbs-cmd-ctrl {
+    position: relative;
+    top: 70px;
+    margin-bottom: 20px;
+    max-width: 1000px;
+    min-width: 500px;
+    width: 90%;
+    background-color: white;
+    border-left: 5px solid teal; 
+    padding: 20px;
+}
+#bbs-cmd-details {
+    position: relative;
+    top: 20px;
+    padding: 20px;
+}
+/* 文章部分 */
+.bbs-article-section {
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    max-width: 150%;
+    width: 1000px;
+    min-width: 500px;
+}
+
+.bbs-article-section-center {
+    background-color: rgb(250, 242, 231);
+    border-top: 5px solid peru;
+}
+
+.bbs-comment-section {
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    max-width: 150%;
+    width: 1000px;
+    min-width: 500px;
+}
+
+.bbs-comment-section-left {
+
+}
+.bbs-comment-section-right {
+    background-color: aliceblue;
+    border-top: 5px solid cornflowerblue;
+}
+
+/* 编辑器*/
+#summernote-article, #summernote-comment {
+
+}

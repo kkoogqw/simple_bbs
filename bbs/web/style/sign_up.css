@@ -1,0 +1,39 @@
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    position: relative;
+    top: 60px;
+}
+
+#top-bar {
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+}
+
+#signup-part {
+    display: block;
+
+    top: 20px;
+
+    position: relative;
+    width: 50%;
+    max-width: 400px;
+    min-width: 300px;
+
+    height: 60%;
+    min-height: 400px;
+    padding: 15px;
+    margin: 10px auto;
+}
+
+#search-box {
+    position: absolute;
+    right: 10px;
+    width: 15%;
+    min-width: 300px;
+    max-width: 400px;
+}
